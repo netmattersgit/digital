@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 21,
+    "uniqCompNum": 25,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -140,7 +140,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Netmattes Digital Marketing."
+          "text": "Copyright (c) 2016 Netmatters Digital Marketing."
         },
         {
           "_inherit": "header1",
@@ -468,8 +468,65 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts4",
-          "_anchor": "contacts4-5",
+          "_name": "form1",
+          "_anchor": "form1-l",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "emarketinghut@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-o",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
@@ -482,37 +539,21 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<strong>Address</strong><br>Wymondham<br>11 Penfold Drive<br>Norfolk<br>NR18 0WZ<br><br><br>\n<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"text-white\" href=\"https://mobirise.com/\">Website builder</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "emarketinghut@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128,
+              "active": true
             },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": false,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": false,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Get In Touch &gt;</a>"
+          "text1": "<strong>Address</strong><br>11 Penfold Drive<br>Norfolk<br>NR18 0WZ<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: info@netmatters.com<br>\nPhone: 01603 515 007<br><br>",
+          "text3": "<strong>Links</strong><br>Website Design<br>Bespoke Software Solutions<br>IT Support<br>"
         }
       ]
     }
