@@ -206,7 +206,7 @@
             "showMeta": true
           },
           "title": "Our Process",
-          "meta": "With our simple 3-step process, new business opportunities are just a click-away."
+          "meta": "With our simple 3-step process, new business opportunities are a breeze."
         },
         {
           "_styles": {
@@ -242,7 +242,7 @@
             "showButton": true
           },
           "title": "Find &nbsp;&gt; Convert &gt; Retain",
-          "text": "<p>We identify ideal visitors, we help them turn into business and we then maximise their value,&nbsp;</p>",
+          "text": "<p><b>Step 1:&nbsp;</b><span style=\"color: rgb(255, 255, 255); font-size: 1.07rem; font-family: Raleway, sans-serif; line-height: 1.5;\">We get to understand your ideal visitors and where we can find them,<br></span><b style=\"font-size: 1.07rem; line-height: 1.5;\">Step 2:&nbsp;</b><span style=\"font-size: 1.07rem; line-height: 1.5;\">We make it easy for them to do business with you.<br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Step 3: </b>We find new ways to maximise their value,&nbsp;</span></p><p></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">See How We Work</a>"
         },
         {
