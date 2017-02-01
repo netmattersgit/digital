@@ -486,12 +486,28 @@ h6,
   text-align: center;
   font-size: 72px;
 }
+#header3-q .mbr-section-title,
+#header3-q .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-q H3 {
+  color: #a0a0a0;
+  font-size: 32px;
+}
 #msg-box8-g .mbr-section-title,
 #msg-box8-g p {
   color: #fff;
 }
+#msg-box8-g .mbr-section-title {
+  font-size: 60px;
+}
+#testimonials1-d .mbr-section-title {
+  font-size: 32px;
+  color: #a0a0a0;
+}
 #pricing-table1-k .mbr-section__container .mbr-section-title {
-  color: #fff;
+  color: #a0a0a0;
+  font-size: 32px;
 }
 #pricing-table1-k .mbr-section__container .mbr-section-subtitle {
   color: #a0a0a0;
