@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 11,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -278,6 +278,24 @@
           "_anchor": "gallery1-9",
           "articleLayout": false,
           "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-a",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#eeeeee",
+            "googleMap": {
+              "address": "Netmatters Digital Marketing\n11 Penfold Drive\nNorfolk\nNR18 0WZ",
+              "placeId": "ChIJSwu6jazd2UcRxOD9ykTfnxc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
         },
         {
           "_tags": [
