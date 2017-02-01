@@ -1,7 +1,7 @@
 {
   "settings": {
     "currentPage": "index.html",
-    "name": "My Site",
+    "name": "Digital",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,9 @@
     },
     "versionFirst": "3.11.1",
     "uniqCompNum": 27,
-    "versionPublish": "3.11.1"
+    "versionPublish": "3.11.1",
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -78,7 +80,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#fac51c!important"
+              "color": "#87b840!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -148,6 +150,16 @@
             "Theme"
           ],
           "_name": "header4",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "center",
+              "font-size": "36px"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "font-size": "72px"
+            }
+          },
           "_anchor": "header4-4",
           "_params": {
             "parallax": true,
@@ -170,17 +182,7 @@
           },
           "title": "We &nbsp;Get You More Leads",
           "text": "No Tie-ins, Proven Tactics , Clear Results&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Find Out How</a> ",
-          "_styles": {
-            ".mbr-section-lead": {
-              "text-align": "center",
-              "font-size": "36px"
-            },
-            ".mbr-section-title": {
-              "text-align": "center",
-              "font-size": "72px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Find Out How</a> "
         },
         {
           "_styles": {
@@ -248,6 +250,12 @@
             "Theme"
           ],
           "_name": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "32px",
+              "color": "#a0a0a0"
+            }
+          },
           "testimonial": [
             {
               "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
@@ -282,6 +290,10 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": "2",
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
@@ -291,20 +303,10 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": true,
-            "count": "2",
-            "showImages": true,
-            "showName": true,
-            "showBio": true
+            "showSubtitle": true
           },
           "title": "Our Results&nbsp;",
-          "subtitle": "Our abilities are defined by what we are able to achieve on behalf of our clients.",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "32px",
-              "color": "#a0a0a0"
-            }
-          }
+          "subtitle": "Our abilities are defined by what we are able to achieve on behalf of our clients."
         },
         {
           "_styles": {
@@ -388,6 +390,11 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-l",
           "_params": {
             "labelsColor": "#232323",
@@ -433,12 +440,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         },
         {
           "_tags": [
