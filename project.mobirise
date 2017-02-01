@@ -258,7 +258,7 @@
           },
           "testimonial": [
             {
-              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "text": "<p>“We started a PPC campaign with Netmatters just over 7 months ago - Our sales through this marketing channel have since continued to grow - We're currently running at just under <b>600% ROI</b>! - Very impressed!\"</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face3.jpg",
@@ -269,10 +269,10 @@
                 }
               },
               "authorName": "Abanoub S.",
-              "authorBio": "User"
+              "authorBio": "Company Ltd"
             },
             {
-              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag &amp; drop with no time.”</p>",
+              "text": "<p>“Netmatters have not only managed to help us grow our reach and find new customers, they have also been instumental in helping us understand them more than we ever have - we now know their <b>TRUE VALUE</b>!”</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face1.jpg",
@@ -283,7 +283,7 @@
                 }
               },
               "authorName": "Suffian A.",
-              "authorBio": "User"
+              "authorBio": "Business Inc"
             }
           ],
           "_anchor": "testimonials1-d",
