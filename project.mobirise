@@ -169,7 +169,9 @@
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "width": 1280,
+              "height": 720,
+              "url": "http://media.istockphoto.com/videos/the-perfect-mountain-aerial-shot-in-sunset-video-id181848951"
             },
             "bgVideoRadio": true,
             "overlay": true,
