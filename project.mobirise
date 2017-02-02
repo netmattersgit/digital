@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 29,
+    "uniqCompNum": 30,
     "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": ""
@@ -43,7 +43,7 @@
             "Theme"
           ],
           "_name": "header4",
-          "_anchor": "header4-s",
+          "_anchor": "header4-t",
           "_params": {
             "parallax": true,
             "bgImageRadio": false,
@@ -54,28 +54,20 @@
             "bgVideo": {
               "width": 1280,
               "height": 720,
-              "url": "https://www.youtube.com/embed/7WpLisz06eo?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/embed/utdAObnxrCs?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
             "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.5",
             "overlayColor": "#000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": true
           },
-          "title": "We  Get You More Leads",
+          "title": "We Get You More Leads",
           "text": "No Tie-ins, Effective Tactics , Fast Results",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#header4-s\" data-toolbar=\"-mbrBtnMove\">Find Out How</a> ",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "center"
-            },
-            ".mbr-section-lead": {
-              "text-align": "center"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> "
         },
         {
           "_styles": {
