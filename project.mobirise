@@ -38,30 +38,6 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#a0a0a0",
-              "font-size": "32px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-q",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": 1,
-            "bgColor": "#444444",
-            "showMeta": true
-          },
-          "title": "Our Process",
-          "meta": "With our simple 3-step process, new business opportunities are a breeze."
-        },
-        {
           "_inherit": "header1",
           "_tags": [
             "Theme"
@@ -92,6 +68,30 @@
           "title": "We Get You More Leads",
           "text": "No Tie-ins, Effective Tactics , Fast Results",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Find Out How</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#a0a0a0",
+              "font-size": "32px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-q",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "bgColor": "#444444",
+            "showMeta": true
+          },
+          "title": "Our Process",
+          "meta": "With our simple 3-step process, new business opportunities are a breeze."
         },
         {
           "_styles": {
