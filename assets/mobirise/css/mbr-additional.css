@@ -411,6 +411,14 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#header3-q .mbr-section-title,
+#header3-q .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-q H3 {
+  color: #a0a0a0;
+  font-size: 32px;
+}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -477,14 +485,6 @@ h6,
 #menu-0 .close-icon::before,
 #menu-0 .close-icon::after {
   background-color: #777777;
-}
-#header3-q .mbr-section-title,
-#header3-q .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-q H3 {
-  color: #a0a0a0;
-  font-size: 32px;
 }
 #msg-box8-g .mbr-section-title,
 #msg-box8-g p {
