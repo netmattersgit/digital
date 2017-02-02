@@ -214,7 +214,7 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "font-size": "60px"
+              "font-size": "36px"
             }
           },
           "_tags": [
@@ -241,8 +241,8 @@
             "showText": true,
             "showButton": true
           },
-          "title": "Find &nbsp;&gt; Convert &gt; Retain",
-          "text": "<p><b>Step 1:&nbsp;</b><span style=\"color: rgb(255, 255, 255); font-size: 1.07rem; font-family: Raleway, sans-serif; line-height: 1.5;\">We get to understand your ideal visitors and where we can find them,<br></span><b style=\"font-size: 1.07rem; line-height: 1.5;\">Step 2:&nbsp;</b><span style=\"font-size: 1.07rem; line-height: 1.5;\">We make it easy for them to do business with you.<br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Step 3: </b>We find new ways to maximise their value,&nbsp;</span></p><p></p>",
+          "title": "Strategy &nbsp;&gt; Implementation &gt; Review",
+          "text": "<p><b>Step 1:&nbsp;</b><span style=\"color: rgb(255, 255, 255); font-size: 1.07rem; font-family: Raleway, sans-serif; line-height: 1.5;\">We get to understand your business and ideal visitors in detail ,<br></span><b style=\"font-size: 1.07rem; line-height: 1.5;\">Step 2:&nbsp;</b><span style=\"font-size: 1.07rem; line-height: 1.5;\">We execute a plan of action to bring the two together.<br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Step 3: </b>We monitor the effectiveness of each element,&nbsp;</span></p><p></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://#\" data-toolbar=\"-mbrBtnMove\">See How We Work</a>"
         },
         {
