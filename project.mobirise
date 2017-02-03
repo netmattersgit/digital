@@ -43,6 +43,11 @@
             "Theme"
           ],
           "_name": "header4",
+          "_styles": {
+            ".mbr-section-lead": {
+              "font-size": "36px"
+            }
+          },
           "_anchor": "header4-t",
           "_params": {
             "parallax": true,
@@ -67,12 +72,7 @@
           },
           "title": "We Get You More Leads",
           "text": "No Tie-ins, Effective Tactics , Fast Results",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#header3-q\" data-toolbar=\"-mbrBtnMove\">Find Out How</a> ",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-size": "36px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#header3-q\" data-toolbar=\"-mbrBtnMove\">Find Out How</a> "
         },
         {
           "_styles": {
