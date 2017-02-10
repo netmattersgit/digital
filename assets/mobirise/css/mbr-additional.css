@@ -411,10 +411,6 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
-#header3-v .mbr-section-title,
-#header3-v .mbr-section-subtitle {
-  text-align: center;
-}
 #header4-t .mbr-section-lead {
   font-size: 36px;
 }
