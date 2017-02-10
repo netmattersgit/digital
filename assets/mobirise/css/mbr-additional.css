@@ -411,6 +411,10 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#header3-v .mbr-section-title,
+#header3-v .mbr-section-subtitle {
+  text-align: center;
+}
 #header4-t .mbr-section-lead {
   font-size: 36px;
 }
@@ -507,6 +511,6 @@ h6,
 #pricing-table1-k .mbr-section__container .mbr-section-subtitle {
   color: #a0a0a0;
 }
-#form1-l .form-control-label {
+#form1-u .form-control-label {
   color: #232323;
 }
