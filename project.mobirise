@@ -49,7 +49,7 @@
           "_name": "header3",
           "_anchor": "header3-v",
           "_params": {
-            "paddingTop": 1,
+            "paddingTop": "7",
             "paddingBottom": 1,
             "bgColor": "#fff",
             "showMeta": true
