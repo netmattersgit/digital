@@ -1,17 +1,17 @@
 {
   "settings": {
-    "currentPage": "index.html",
-    "name": "Digital",
+    "currentPage": "timeline.html",
+    "name": "My Site",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#87b840",
-        "secondaryColor": "#87b840",
-        "successColor": "#87b840",
-        "infoColor": "#87b840",
-        "warningColor": "#87b840",
-        "dangerColor": "#87b840",
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
@@ -21,10 +21,8 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 32,
-    "versionPublish": "3.11.1",
-    "favicon": "",
-    "noImageResize": ""
+    "uniqCompNum": 13,
+    "versionPublish": "3.11.1"
   },
   "pages": {
     "index.html": {
@@ -38,491 +36,429 @@
       },
       "components": [
         {
-          "_inherit": "header1",
+          "alias": "mobirise3-blocks/components",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "header4",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-size": "36px"
-            }
-          },
-          "_anchor": "header4-t",
+          "_name": "extFeatures13",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/utdAObnxrCs?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": true,
-            "overlay": true,
-            "overlayOpacity": "0",
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "We Get You More Leads",
-          "text": "No Tie-ins, Effective Tactics , Fast Results",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#header3-q\" data-toolbar=\"-mbrBtnMove\">Find Out How</a> "
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#a0a0a0",
-              "font-size": "32px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-q",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": 1,
-            "bgColor": "#444444",
-            "showMeta": true
-          },
-          "title": "Our Process",
-          "meta": "With our simple 3-step process, new business opportunities are a breeze."
-        },
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#777777"
-            },
-            ".link, .dropdown-item": {
-              "color": "#777777"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#777777",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#87b840!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#777777"
-            }
-          },
-          "_name": "menu",
-          "_anchor": "menu-0",
-          "_params": {
-            "bgColor": "#ffffff",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#777777",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/netmatters-digital-marketing-logo-731x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://#\">What We Do</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://#\">Why We Do It</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://#\">How We Do It</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://#\">Contact Us &gt;</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Netmatters Digital Marketing."
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "font-size": "36px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-g",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "3",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#444444",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#87b840",
-            "showTitle": true,
-            "showText": true,
-            "showButton": true
-          },
-          "title": "Strategy &nbsp;&gt; Implementation &gt; Review",
-          "text": "<p><b>Step 1:&nbsp;</b><span style=\"color: rgb(255, 255, 255); font-size: 1.07rem; font-family: Raleway, sans-serif; line-height: 1.5;\">We get to understand your business and ideal visitors in detail ,<br></span><b style=\"font-size: 1.07rem; line-height: 1.5;\">Step 2:&nbsp;</b><span style=\"font-size: 1.07rem; line-height: 1.5;\">We execute a plan of action to bring the two together.<br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Step 3: </b>We monitor the effectiveness of each element,&nbsp;</span></p><p></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://#\" data-toolbar=\"-mbrBtnMove\">See How We Work</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials1",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "32px",
-              "color": "#a0a0a0"
-            }
-          },
-          "testimonial": [
-            {
-              "text": "<p>“We started a PPC campaign with Netmatters just over 7 months ago - Our sales through this marketing channel have since continued to grow - We're currently running at just under <b>600% ROI</b>! - Very impressed!\"</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face3.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Abanoub S.",
-              "authorBio": "Company Ltd"
-            },
-            {
-              "text": "<p>“Netmatters have not only managed to help us grow our reach and find new customers, they have also been instumental in helping us understand them more than we ever have - we now know their <b>TRUE VALUE</b>!”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face1.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Suffian A.",
-              "authorBio": "Business Inc"
-            }
-          ],
-          "_anchor": "testimonials1-d",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "count": "2",
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#cccccc",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
-          },
-          "title": "Our Results&nbsp;",
-          "subtitle": "Our abilities are defined by what we are able to achieve on behalf of our clients."
-        },
-        {
-          "_styles": {
-            ".mbr-section__container .mbr-section-title": {
-              "color": "#a0a0a0",
-              "font-size": "32px"
-            },
-            ".mbr-section__container .mbr-section-subtitle": {
-              "color": "#a0a0a0"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-k",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#303030",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#28324e",
             "showTitle": true,
             "showSubtitle": true,
-            "firstType": "",
-            "showButtons": true,
-            "secondType": "",
-            "thirdType": "",
-            "fourthType": ""
+            "showDates": true,
+            "iconsColor": "#666666",
+            "blocks": "5",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extHeader14_bg.jpg",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
           },
-          "title": "Our Services",
-          "subtitle": "We have a range of digital marketing options to suit most budgets and time-scales, here are just a few of them.",
-          "label1": "HOT!",
-          "title1": "Search Engine Optimisation<br>",
-          "subtitle1": "(SEO)",
-          "currency1": "",
-          "price1": "Organic",
-          "period1": "",
-          "description1": "Go-to-choice for businesses looking for a long term digital precence, or those with non-time sensitive offering.&nbsp;",
-          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Large Volumes of Traffic</li><li class=\"list-group-item\">Increased Brand Awareness</li><li class=\"list-group-item\">Huge Returns on Investment</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://#\" class=\"btn btn-white-outline btn-white\" data-toolbar=\"-mbrBtnMove\">More</a>",
-          "label2": "HOT!",
-          "title2": "Pay Per Click<br>",
-          "subtitle2": "(PPC)",
-          "currency2": "",
-          "price2": "Paid",
-          "period2": "",
-          "description2": "Perfect targeting opportunities for businesses with time-sensitive and seasonal trending patterns.",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Highly Flexible</li><li class=\"list-group-item\">Fast Setup and Delivery</li><li class=\"list-group-item\">Strong Returns on Investment</li></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://#\" class=\"btn btn-white-outline btn-white\" data-toolbar=\"-mbrBtnMove\">More</a>",
-          "label3": "HOT!",
-          "title3": "Email Marketing<br>",
-          "subtitle3": "(eCRM)",
-          "currency3": "",
-          "price3": "Email",
-          "period3": "",
-          "description3": "Ideal opportunites for established businesses with an existing list of customers.",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Manual/Triggered Campaigns</li><li class=\"list-group-item\"><span style=\"font-size: 0.875rem; line-height: 3.125rem;\"><span style=\"font-size: 0.875rem; line-height: 3.125rem;\">Easy To Setup and Manage</span></span></li><li class=\"list-group-item\">Highest Return on Investment</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://#\" class=\"btn btn-white-outline btn-white\" data-toolbar=\"-mbrBtnMove\">More</a>",
-          "label4": "HOT!",
-          "title4": "Social Media Marketing<br>",
-          "subtitle4": "(SMM)",
-          "currency4": "",
-          "price4": "Social",
-          "period4": "",
-          "description4": "The fastests growing marketing opportunity for those looking to gain traction and reach new audiences.&nbsp;",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Fast Growing&nbsp;</li><li class=\"list-group-item\">Highly Targetted</li><li class=\"list-group-item\">High Return on Investment</li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://#\" class=\"btn btn-white-outline btn-white\" data-toolbar=\"-mbrBtnMove\">More</a>"
+          "mainTitle": "TIMELINE BLOCK",
+          "mainSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "date1": "1 January 2016",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-extFeatures2",
+              "name": "layers",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title1": "1. Multi Homepages",
+          "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date2": "2 Ferbuary 2016",
+          "title2": "2. Responsive Design",
+          "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "upload",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "date3": "3 March 2016",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title3": "3. Smart Watch",
+          "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date4": "4 April 2016",
+          "title4": "4. Design out of the box",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "battery-1",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "#666666"
+            }
+          },
+          "date5": "5 May 2016",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "pencil",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title5": "5. Awesome Reports",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date6": "6 June 2016",
+          "title6": "6. Multi Homepages",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-extFeatures2",
+              "name": "layers",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "date7": "7 July 2016",
+          "media7": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "upload",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title7": "7. Responsive Design",
+          "text7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date8": "8 August 2016",
+          "title8": "8. Smart Watch",
+          "text8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media8": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "date9": "9 September 2016",
+          "media9": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "heart",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title9": "9. Design out of the box",
+          "text9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date10": "10 October 2016",
+          "title10": "10. Awesome Reports",
+          "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media10": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "pencil",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "date11": "11 November 2016",
+          "media11": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "heart",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title11": "11. Design out of the box",
+          "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date12": "12 December 2016",
+          "title12": "12. Awesome Reports",
+          "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media12": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "pencil",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "bottomTitle": "THE&nbsp;END",
+          "_customCSS": ".etl-icon {\n\tcolor: #666666;\n}\n",
+          "_customHTML": "<section class=\"mbr-section extFeatures13\" style=\"background-color: rgb(255, 255, 255); padding-top: 100px; padding-bottom: 100px;\">\n    <div class=\"elements-content\">\n        \n        <div class=\"container titleBlock\">\n            <div class=\"col-xs-12 text-xs-center\">\n                <div class=\"title_wrapper\">\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"5\">TIMELINE BLOCK</h3>\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"6\">Lorem ipsum dolor sit amet, consectetur adipiscing elit</small>\n                </div>    \n            </div>\n        </div>    \n        <div class=\"container timelineHeight\">\n            <ul class=\"timeline\">\n                <li class=\"timeline-normal separline\" style=\"display: block;\">\n                    <div class=\"date date-normal\">\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"7\">1 January 2016</p>\n                    </div>\n                    <span class=\"iconBackground first_span\"><span class=\"icon\"><span class=\"etl-icon icon-layers mbr-iconfont-extFeatures2\" style=\"color: #666666\"></span></span></span>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black text-right mbr-editable-content\" code-editable-id=\"8\">1. Multi Homepages</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"9\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                </li>\n\n                <li class=\"timeline-inverted separline\" style=\"display: block;\">\n                    <div class=\"date date-inverted\">\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"10\">2 Ferbuary 2016</p>\n                    </div>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black mbr-editable-content\" code-editable-id=\"11\">2. Responsive Design</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"12\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                    <span class=\"iconBackgroundInverse\"><span class=\"icon\"><span class=\"etl-icon icon-upload mbr-iconfont-features6\" style=\"color: #666666\"></span></span></span>\n                </li>\n\n                <li class=\"timeline-normal separline\" style=\"display: block;\">\n                    <div class=\"date date-normal\">\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"13\">3 March 2016</p>\n                    </div>\n                    <span class=\"iconBackground\"><span class=\"icon\"><span class=\"etl-icon icon-linegraph mbr-iconfont-features6\" style=\"color: #666666\"></span></span></span>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black text-right mbr-editable-content\" code-editable-id=\"14\">3. Smart Watch</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"15\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                </li>\n\n                <li class=\"timeline-inverted separline\" style=\"display: block;\">\n                    <div class=\"date date-inverted\">\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"16\">4 April 2016</p>\n                    </div>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black mbr-editable-content\" code-editable-id=\"17\">4. Design out of the box</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"18\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                    <span class=\"iconBackgroundInverse\"><span class=\"icon\"><span class=\"fa fa-battery-1 mbr-iconfont-features6\" style=\"color: rgb(102, 102, 102);\"></span></span></span>\n                </li>\n\n                <li class=\"timeline-normal separline\" style=\"display: block;\">\n                    <div class=\"date date-normal\">\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"19\">5 May 2016</p>\n                    </div>\n                    <span class=\"iconBackground\"><span class=\"icon\"><span class=\"etl-icon icon-pencil mbr-iconfont-features6\" style=\"color: #666666\"></span></span></span>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black text-right mbr-editable-content\" code-editable-id=\"20\">5. Awesome Reports</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"21\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                </li>\n\n                \n\n                \n\n                \n\n                \n\n                \n\n                 \n\n                \n\n            </ul>\n            <div class=\"title_wrapper bottom_title_wrapper\">\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"22\">THE&nbsp;END</h3>\n            </div>    \n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "extFeatures13-7",
+          "_styles": {
+            ".etl-icon": {
+              "color": "#666666"
+            }
+          }
         },
         {
+          "alias": "wowslider",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "gallery1",
+          "_name": "wowslider",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "images": [
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "slides": [
               {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "ExampleWebsiteOne.co.uk",
-                "active": true
+                "src": "@ADDONS_PATH@/wowslider/assets/images/slide3.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/slide3-1024x576.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip3.jpg"
               },
               {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "caption": "ExampleWebsiteTwo.co.uk",
-                "active": false
+                "src": "@ADDONS_PATH@/wowslider/assets/images/slide2.jpg",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/slide2-1024x576.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip2.jpg"
               },
               {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "ExampleWebsiteThree.co.uk",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "caption": "ExampleWebsiteFour.co.uk"
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "caption": "ExampleWebsiteFive.co.uk"
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "caption": "ExampleWebsiteSix.co.uk"
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "caption": "ExampleWebsiteSeven.co.uk"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "caption": "ExampleWebsiteEight.co.uk"
+                "src": "@ADDONS_PATH@/wowslider/assets/images/slide1.jpg",
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/slide1-1024x576.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip1.jpg"
               }
             ],
-            "spacing": "0",
-            "showText": true,
-            "filter": false,
-            "bgColor": "#87b840",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            "theme": "boundary",
+            "bgColor": "#ffffff",
+            "animType": "kenburns",
+            "autoplay": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "fullScreen": true,
+            "showBullets": false,
+            "timeout": 2,
+            "duration": 2,
+            "height": "576",
+            "width": "1024",
+            "responsive": "3",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": false
           },
-          "_anchor": "gallery1-9",
-          "articleLayout": false,
-          "allItem": "All"
+          "_anchor": "wowslider-b",
+          "articleLayout": false
         },
         {
+          "alias": "mobirise3-blocks/components",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-o",
+          "_name": "extTestimonials5",
           "_params": {
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "slides": [
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/1.png",
+                    "link": "https://mobirise.com",
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/2.png",
+                    "link": "https://mobirise.com",
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/3.png",
+                    "link": "https://mobirise.com",
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/4.png",
+                    "link": "https://mobirise.com",
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/5.png",
+                    "link": "https://mobirise.com",
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/3.png",
+                    "link": "https://mobirise.com",
+                    "active": true
+                  }
+                }
+              }
+            ],
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showBullets": true,
+            "visibleSlides": "5",
+            "showArrows": true
+          },
+          "_anchor": "extTestimonials5-9",
+          "title": "OUR CLIENTS",
+          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients."
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/code-editor-placeholder.jpg\">",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-a"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_anchor": "extTable1-8",
+          "_params": {
+            "rowСount": 4,
+            "colCount": 4,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/sky.jpg",
+            "bgColor": "#fff",
             "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/white-rounded-with-cut-rgbv2-128x141.png",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showSearch": true
           },
-          "text1": "<strong>Address</strong><br>11 Penfold Drive<br>Norfolk<br>NR18 0WZ<br>",
-          "text2": "<strong>Contacts</strong><br>\nEmail: info@netmatters.com<br>\nPhone: 01603 515 007<br><br>",
-          "text3": "<strong>Links</strong><br>Web Design &amp; App Development<br>Bespoke Software Solutions<br>Telecoms &amp; Broadband<br>IT Support<br>"
-        },
+          "title": "TABLE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Age</th><th>Date</th><th>Salary</th></tr></thead><tbody><tr><td>Jeanna Schmal</td><td>44</td><td>2016-10-17</td><td>$317.000</td></tr><tr><td>Caren Rials</td><td>35</td><td>2013-04-12</td><td>$445.500</td></tr><tr><td>Leon Rogol</td><td>66</td><td>2016-05-22</td><td>$152.558</td></tr><tr><td>Shala Barrera</td><td>70</td><td>2016-05-15</td><td>$459.146</td></tr></tbody>"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Web Page Generator Title",
+        "meta_descr": "Web Page Generator Description"
+      },
+      "components": [
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
-          "_anchor": "form1-u",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-2",
           "_params": {
             "labelsColor": "#232323",
             "paddingTop": 3,
@@ -541,9 +477,9 @@
           "title": "CONTACT FORM",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "form": {
-            "action": "digital@netmatters.com",
+            "action": "marcobarrauk@gmail.com",
             "alerts": {
-              "success": "Thank you - A member of our team will be in touch shortly."
+              "success": "Thanks for filling out form!"
             },
             "fields": {
               "name": {
@@ -567,10 +503,206 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        }
+      ]
+    },
+    "timeline.html": {
+      "settings": {
+        "title": "Web Site Maker Title",
+        "meta_descr": "Web Site Maker Description"
+      },
+      "components": [
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures13",
+          "_anchor": "extFeatures13-c",
+          "_params": {
+            "iconsColor": "#666666",
+            "blocks": "5",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extHeader14_bg.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showDates": true
+          },
+          "mainTitle": "TIMELINE BLOCK",
+          "mainSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "date1": "1 January 2016",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-extFeatures2",
+              "name": "layers",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title1": "1. Multi Homepages",
+          "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date2": "2 Ferbuary 2016",
+          "title2": "2. Responsive Design",
+          "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "upload",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "date3": "3 March 2016",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title3": "3. Smart Watch",
+          "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date4": "4 April 2016",
+          "title4": "4. Design out of the box",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "heart",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "date5": "5 May 2016",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "pencil",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title5": "5. Awesome Reports",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date6": "6 June 2016",
+          "title6": "6. Multi Homepages",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-extFeatures2",
+              "name": "layers",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "date7": "7 July 2016",
+          "media7": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "upload",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title7": "7. Responsive Design",
+          "text7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date8": "8 August 2016",
+          "title8": "8. Smart Watch",
+          "text8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media8": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "date9": "9 September 2016",
+          "media9": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "heart",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title9": "9. Design out of the box",
+          "text9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date10": "10 October 2016",
+          "title10": "10. Awesome Reports",
+          "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media10": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "pencil",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "date11": "11 November 2016",
+          "media11": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "heart",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "title11": "11. Design out of the box",
+          "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date12": "12 December 2016",
+          "title12": "12. Awesome Reports",
+          "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media12": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "pencil",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "bottomTitle": "THE&nbsp;END",
           "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
+            ".etl-icon": {
+              "color": "#666666"
             }
           }
         }
